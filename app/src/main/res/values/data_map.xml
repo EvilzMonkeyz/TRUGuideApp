@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Location_Name">
+        <item>อาคาร A</item>
+        <item>อาคาร B</item>
+        <item>อาคารอเนกประสงค์และบัณฑิตวิทยาลัย</item>
+        <item>อาคารนวัตกรรมและวิเทศน์สัมพันธ์</item>
+        <item>อาคารอเนกประสงค์ในร่ม</item>
+        <item>อาคารวิทยบริการ</item>
+        <item>อาคารกิจการนักศึกษา</item>
+        <item>ศูนย์ศิลปะวัฒนธรรม</item>
+        <item>ห้องสมัครเรียน/ห้องกองทุน</item>
+        <item>ร้านพญาสัตบรรณ</item>
+        <item>โรงอาหาร</item>
+        <item>ศูนย์ปฏิบัติการทางวิศวกรรม</item>
+    </string-array>
+
+    <string-array name="Location_Icon">
+        <item>loc_icon1</item>
+        <item>loc_icon2</item>
+        <item>loc_icon3</item>
+        <item>loc_icon4</item>
+        <item>loc_icon5</item>
+        <item>loc_icon6</item>
+        <item>loc_icon7</item>
+        <item>loc_icon8</item>
+        <item>loc_icon9</item>
+        <item>loc_icon10</item>
+        <item>loc_icon11</item>
+        <item>loc_icon12</item>
+    </string-array>
+
+    <string-array name="Location_Lat">
+        <item>13.715905</item>
+        <item>13.715891</item>
+        <item>13.717074</item>
+        <item>13.716792</item>
+        <item>13.717055</item>
+        <item>13.716944</item>
+        <item>13.716698</item>
+        <item>13.716318</item>
+        <item>13.716580</item>
+        <item>13.716580</item>
+        <item>13.715868</item>
+        <item>13.715868</item>
+    </string-array>
+
+    <string-array name="Location_Lon">
+        <item>100.346672</item>
+        <item>100.347614</item>
+        <item>100.349012</item>
+        <item>100.350443</item>
+        <item>100.349428</item>
+        <item>100.348383</item>
+        <item>100.348011</item>
+        <item>100.349541</item>
+        <item>100.346433</item>
+        <item>100.346749</item>
+        <item>100.348286</item>
+        <item>100.348635</item>
+    </string-array>
+
+    <string-array name="Location_Subtitle">
+        <item>คณะวิศวกรรมศาสตร์, งานการเงิน, งานแนะแนว</item>
+        <item>คณะบริหารธุรกิจ, งานทะเบียน, ศูนย์คอมพิวเตอร์, สโมสรนักศึกษา</item>
+        <item>คณะวิทยาศาสตร์และเทคโนโลยี, งานวิชาการ, ปริญญาโท, Lab1-4, หอประชุม</item>
+        <item>คณะบัญชี, LabMac, ห้องประชุมเฟื่องฟุ้ง</item>
+        <item>ห้องปฏิบัติการจัดเลี้ยง Cafeteria</item>
+        <item>สำนักวิทยบริการ, ห้องสมุด, ห้องสมุดอิเล็กทรอนิกส์</item>
+        <item>ติดต่อขอรับบัตรสอบ, กองอำนวยกานนักศึกษา</item>
+        <item>อาคารบ้านทรงไทย, เรือนไทย, ศูนย์ศิลปะวัฒนธรรม</item>
+        <item>ติดต่อสมัครเรียน, งานกองทุนกู้ยืมเพื่อการศึกษา, ติดต่อเรื่องเกี่ยวกับ กยศ/กรอ</item>
+        <item>ขายสินค้าอุปกรณ์, เครื่องแบบต่างๆของมหาวิทยาลัย</item>
+        <item>โรงอาหารของมหาวิทยาลัยธนบุรี</item>
+        <item>ติดต่องานกองช่าง, ศูนย์ฝึกปฏิบัติการทางวิศวกรรม</item>
+
+    </string-array>
+
+    <string-array name="Location_Detail">
+        <item>..</item>
+        <item>..</item>
+        <item>..</item>
+        <item>..</item>
+        <item>..</item>
+        <item>..</item>
+        <item>..</item>
+        <item>..</item>
+        <item>..</item>
+        <item>..</item>
+        <item>..</item>
+        <item>..</item>
+    </string-array>
+
+
+
+
+</resources>
