@@ -15,7 +15,6 @@
         <item>โรงอาหาร</item>
         <item>ศูนย์ปฏิบัติการทางวิศวกรรม</item>
     </string-array>
-
     <string-array name="Location_Icon">
         <item>loc_icon1</item>
         <item>loc_icon2</item>
@@ -30,7 +29,6 @@
         <item>loc_icon11</item>
         <item>loc_icon12</item>
     </string-array>
-
     <string-array name="Location_Lat">
         <item>13.715905</item>
         <item>13.715891</item>
@@ -45,7 +43,6 @@
         <item>13.715868</item>
         <item>13.715868</item>
     </string-array>
-
     <string-array name="Location_Lon">
         <item>100.346672</item>
         <item>100.347614</item>
@@ -60,7 +57,6 @@
         <item>100.348286</item>
         <item>100.348635</item>
     </string-array>
-
     <string-array name="Location_Subtitle">
         <item>คณะวิศวกรรมศาสตร์, งานการเงิน, งานแนะแนว</item>
         <item>คณะบริหารธุรกิจ, งานทะเบียน, ศูนย์คอมพิวเตอร์, สโมสรนักศึกษา</item>
@@ -74,25 +70,153 @@
         <item>ขายสินค้าอุปกรณ์, เครื่องแบบต่างๆของมหาวิทยาลัย</item>
         <item>โรงอาหารของมหาวิทยาลัยธนบุรี</item>
         <item>ติดต่องานกองช่าง, ศูนย์ฝึกปฏิบัติการทางวิศวกรรม</item>
-
+    </string-array>
+    <string-array name="Location_Data_Tag">
+        <item>Building_A</item>
+        <item>Building_B</item>
+        <item>Building_G</item>
+        <item>Building_I</item>
+        <item>Building_Cafe</item>
+        <item>Building_Library</item>
+        <item>Building_SA</item>
+        <item>Building_Culture</item>
+        <item>Building_Register</item>
+        <item>Building_Shop</item>
+        <item>Building_FoodHall</item>
+        <item>Building_EO</item>
     </string-array>
 
-    <string-array name="Location_Detail">
-        <item>..</item>
-        <item>..</item>
-        <item>..</item>
-        <item>..</item>
-        <item>..</item>
-        <item>..</item>
-        <item>..</item>
-        <item>..</item>
-        <item>..</item>
-        <item>..</item>
-        <item>..</item>
-        <item>..</item>
+
+    <string-array name="Building_A">
+        <item>ห้อง1</item>
+    </string-array>
+    <string-array name="Building_A_Picture">
+        <item>รูปห้อง1</item>
+    </string-array>
+    <string-array name="Building_A_Detail">
+        <item>รายละเอียด ห้อง1</item>
     </string-array>
 
 
+    <string-array name="Building_B">
+        <item>ห้อง1</item>
+    </string-array>
+    <string-array name="Building_B_Picture">
+        <item>รูปห้อง1</item>
+    </string-array>
+    <string-array name="Building_B_Detail">
+        <item>รายละเอียด ห้อง1</item>
+    </string-array>
+
+
+    <string-array name="Building_G">
+        <item>ห้อง1</item>
+    </string-array>
+    <string-array name="Building_G_Picture">
+        <item>รูปห้อง1</item>
+    </string-array>
+    <string-array name="Building_G_Detail">
+        <item>รายละเอียด ห้อง1</item>
+    </string-array>
+
+
+    <string-array name="Building_I">
+        <item>ห้อง1</item>
+    </string-array>
+    <string-array name="Building_I_Picture">
+        <item>รูปห้อง1</item>
+    </string-array>
+    <string-array name="Building_I_Detail">
+        <item>รายละเอียด ห้อง1</item>
+    </string-array>
+
+
+    <string-array name="Building_Cafe">
+        <item>ห้อง1</item>
+    </string-array>
+    <string-array name="Building_Cafe_Picture">
+        <item>รูปห้อง1</item>
+    </string-array>
+    <string-array name="Building_Cafe_Detail">
+        <item>รายละเอียด ห้อง1</item>
+    </string-array>
+
+
+    <string-array name="Building_Library">
+        <item>ห้อง1</item>
+    </string-array>
+    <string-array name="Building_Library_Picture">
+        <item>รูปห้อง1</item>
+    </string-array>
+    <string-array name="Building_Library_Detail">
+        <item>รายละเอียด ห้อง1</item>
+    </string-array>
+
+
+    <string-array name="Building_SA">
+        <item>ห้อง1</item>
+    </string-array>
+    <string-array name="Building_SA_Picture">
+        <item>รูปห้อง1</item>
+    </string-array>
+    <string-array name="Building_SA_Detail">
+        <item>รายละเอียด ห้อง1</item>
+    </string-array>
+
+
+    <string-array name="Building_Culture">
+        <item>ห้อง1</item>
+    </string-array>
+    <string-array name="Building_Culture_Picture">
+        <item>รูปห้อง1</item>
+    </string-array>
+    <string-array name="Building_Culture_Detail">
+        <item>รายละเอียด ห้อง1</item>
+    </string-array>
+
+
+    <string-array name="Building_Register">
+        <item>ห้อง1</item>
+    </string-array>
+    <string-array name="Building_Register_Picture">
+        <item>รูปห้อง1</item>
+    </string-array>
+    <string-array name="Building_Register_Detail">
+        <item>รายละเอียด ห้อง1</item>
+    </string-array>
+
+
+    <string-array name="Building_Shop">
+        <item>ห้อง1</item>
+    </string-array>
+    <string-array name="Building_Shop_Picture">
+        <item>รูปห้อง1</item>
+    </string-array>
+    <string-array name="Building_Shop_Detail">
+        <item>รายละเอียด ห้อง1</item>
+    </string-array>
+
+
+    <string-array name="Building_FoodHall">
+        <item>ห้อง1</item>
+    </string-array>
+    <string-array name="Building_FoodHall_Picture">
+        <item>รูปห้อง1</item>
+    </string-array>
+    <string-array name="Building_FoodHall_Detail">
+        <item>รายละเอียด ห้อง1</item>
+    </string-array>
+
+
+    <string-array name="Building_EO">
+        <item>ห้อง1</item>
+    </string-array>
+    <string-array name="Building_EO_Picture">
+        <item>รูปห้อง1</item>
+    </string-array>
+    <string-array name="Building_EO_Detail">
+        <item>รายละเอียด ห้อง1</item>
+    </string-array>
 
 
 </resources>
