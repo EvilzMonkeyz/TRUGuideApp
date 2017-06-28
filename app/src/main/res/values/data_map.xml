@@ -15,20 +15,21 @@
         <item>โรงอาหาร</item>
         <item>ศูนย์ปฏิบัติการทางวิศวกรรม</item>
     </string-array>
-    <string-array name="Location_Icon">
-        <item>loc_icon1</item>
-        <item>loc_icon2</item>
-        <item>loc_icon3</item>
-        <item>loc_icon4</item>
-        <item>loc_icon5</item>
-        <item>loc_icon6</item>
-        <item>loc_icon7</item>
-        <item>loc_icon8</item>
-        <item>loc_icon9</item>
-        <item>loc_icon10</item>
-        <item>loc_icon11</item>
-        <item>loc_icon12</item>
+    <string-array name="Location_Parth">
+        <item>a_room</item>
+        <item>b_room</item>
+        <item>g_room</item>
+        <item>i_room</item>
+        <item>cafe_room</item>
+        <item>library_room</item>
+        <item>sa_room</item>
+        <item>culture_room</item>
+        <item>register_room</item>
+        <item>shop_room</item>
+        <item>foodhall_room</item>
+        <item>eo_room</item>
     </string-array>
+
     <string-array name="Location_Lat">
         <item>13.715905</item>
         <item>13.715891</item>
@@ -71,6 +72,7 @@
         <item>โรงอาหารของมหาวิทยาลัยธนบุรี</item>
         <item>ติดต่องานกองช่าง, ศูนย์ฝึกปฏิบัติการทางวิศวกรรม</item>
     </string-array>
+
     <string-array name="Location_Data_Tag">
         <item>Building_A</item>
         <item>Building_B</item>
@@ -89,133 +91,265 @@
 
     <string-array name="Building_A">
         <item>ห้อง1</item>
-    </string-array>
-    <string-array name="Building_A_Picture">
-        <item>รูปห้อง1</item>
+        <item>ห้อง2</item>
+        <item>ห้อง3</item>
+        <item>ห้อง4</item>
+        <item>ห้อง5</item>
+        <item>ห้อง6</item>
+        <item>ห้อง7</item>
+        <item>ห้อง8</item>
     </string-array>
     <string-array name="Building_A_Detail">
         <item>รายละเอียด ห้อง1</item>
+        <item>รายละเอียด ห้อง2</item>
+        <item>รายละเอียด ห้อง3</item>
+        <item>รายละเอียด ห้อง4</item>
+        <item>รายละเอียด ห้อง5</item>
+        <item>รายละเอียด ห้อง6</item>
+        <item>รายละเอียด ห้อง7</item>
+        <item>รายละเอียด ห้อง8</item>
     </string-array>
 
 
     <string-array name="Building_B">
         <item>ห้อง1</item>
-    </string-array>
-    <string-array name="Building_B_Picture">
-        <item>รูปห้อง1</item>
+        <item>ห้อง2</item>
+        <item>ห้อง3</item>
+        <item>ห้อง4</item>
+        <item>ห้อง5</item>
+        <item>ห้อง6</item>
+        <item>ห้อง7</item>
+        <item>ห้อง8</item>
     </string-array>
     <string-array name="Building_B_Detail">
         <item>รายละเอียด ห้อง1</item>
+        <item>รายละเอียด ห้อง2</item>
+        <item>รายละเอียด ห้อง3</item>
+        <item>รายละเอียด ห้อง4</item>
+        <item>รายละเอียด ห้อง5</item>
+        <item>รายละเอียด ห้อง6</item>
+        <item>รายละเอียด ห้อง7</item>
+        <item>รายละเอียด ห้อง8</item>
     </string-array>
 
 
     <string-array name="Building_G">
         <item>ห้อง1</item>
-    </string-array>
-    <string-array name="Building_G_Picture">
-        <item>รูปห้อง1</item>
+        <item>ห้อง2</item>
+        <item>ห้อง3</item>
+        <item>ห้อง4</item>
+        <item>ห้อง5</item>
+        <item>ห้อง6</item>
+        <item>ห้อง7</item>
+        <item>ห้อง8</item>
     </string-array>
     <string-array name="Building_G_Detail">
         <item>รายละเอียด ห้อง1</item>
+        <item>รายละเอียด ห้อง2</item>
+        <item>รายละเอียด ห้อง3</item>
+        <item>รายละเอียด ห้อง4</item>
+        <item>รายละเอียด ห้อง5</item>
+        <item>รายละเอียด ห้อง6</item>
+        <item>รายละเอียด ห้อง7</item>
+        <item>รายละเอียด ห้อง8</item>
     </string-array>
 
 
     <string-array name="Building_I">
         <item>ห้อง1</item>
-    </string-array>
-    <string-array name="Building_I_Picture">
-        <item>รูปห้อง1</item>
+        <item>ห้อง2</item>
+        <item>ห้อง3</item>
+        <item>ห้อง4</item>
+        <item>ห้อง5</item>
+        <item>ห้อง6</item>
+        <item>ห้อง7</item>
+        <item>ห้อง8</item>
     </string-array>
     <string-array name="Building_I_Detail">
         <item>รายละเอียด ห้อง1</item>
+        <item>รายละเอียด ห้อง2</item>
+        <item>รายละเอียด ห้อง3</item>
+        <item>รายละเอียด ห้อง4</item>
+        <item>รายละเอียด ห้อง5</item>
+        <item>รายละเอียด ห้อง6</item>
+        <item>รายละเอียด ห้อง7</item>
+        <item>รายละเอียด ห้อง8</item>
     </string-array>
 
 
     <string-array name="Building_Cafe">
         <item>ห้อง1</item>
-    </string-array>
-    <string-array name="Building_Cafe_Picture">
-        <item>รูปห้อง1</item>
+        <item>ห้อง2</item>
+        <item>ห้อง3</item>
+        <item>ห้อง4</item>
+        <item>ห้อง5</item>
+        <item>ห้อง6</item>
+        <item>ห้อง7</item>
+        <item>ห้อง8</item>
     </string-array>
     <string-array name="Building_Cafe_Detail">
         <item>รายละเอียด ห้อง1</item>
+        <item>รายละเอียด ห้อง2</item>
+        <item>รายละเอียด ห้อง3</item>
+        <item>รายละเอียด ห้อง4</item>
+        <item>รายละเอียด ห้อง5</item>
+        <item>รายละเอียด ห้อง6</item>
+        <item>รายละเอียด ห้อง7</item>
+        <item>รายละเอียด ห้อง8</item>>
     </string-array>
 
 
     <string-array name="Building_Library">
         <item>ห้อง1</item>
-    </string-array>
-    <string-array name="Building_Library_Picture">
-        <item>รูปห้อง1</item>
+        <item>ห้อง2</item>
+        <item>ห้อง3</item>
+        <item>ห้อง4</item>
+        <item>ห้อง5</item>
+        <item>ห้อง6</item>
+        <item>ห้อง7</item>
+        <item>ห้อง8</item>
     </string-array>
     <string-array name="Building_Library_Detail">
         <item>รายละเอียด ห้อง1</item>
+        <item>รายละเอียด ห้อง2</item>
+        <item>รายละเอียด ห้อง3</item>
+        <item>รายละเอียด ห้อง4</item>
+        <item>รายละเอียด ห้อง5</item>
+        <item>รายละเอียด ห้อง6</item>
+        <item>รายละเอียด ห้อง7</item>
+        <item>รายละเอียด ห้อง8</item>
     </string-array>
 
 
     <string-array name="Building_SA">
         <item>ห้อง1</item>
-    </string-array>
-    <string-array name="Building_SA_Picture">
-        <item>รูปห้อง1</item>
+        <item>ห้อง2</item>
+        <item>ห้อง3</item>
+        <item>ห้อง4</item>
+        <item>ห้อง5</item>
+        <item>ห้อง6</item>
+        <item>ห้อง7</item>
+        <item>ห้อง8</item>
     </string-array>
     <string-array name="Building_SA_Detail">
         <item>รายละเอียด ห้อง1</item>
+        <item>รายละเอียด ห้อง2</item>
+        <item>รายละเอียด ห้อง3</item>
+        <item>รายละเอียด ห้อง4</item>
+        <item>รายละเอียด ห้อง5</item>
+        <item>รายละเอียด ห้อง6</item>
+        <item>รายละเอียด ห้อง7</item>
+        <item>รายละเอียด ห้อง8</item>
     </string-array>
 
 
     <string-array name="Building_Culture">
         <item>ห้อง1</item>
-    </string-array>
-    <string-array name="Building_Culture_Picture">
-        <item>รูปห้อง1</item>
+        <item>ห้อง2</item>
+        <item>ห้อง3</item>
+        <item>ห้อง4</item>
+        <item>ห้อง5</item>
+        <item>ห้อง6</item>
+        <item>ห้อง7</item>
+        <item>ห้อง8</item>
     </string-array>
     <string-array name="Building_Culture_Detail">
         <item>รายละเอียด ห้อง1</item>
+        <item>รายละเอียด ห้อง2</item>
+        <item>รายละเอียด ห้อง3</item>
+        <item>รายละเอียด ห้อง4</item>
+        <item>รายละเอียด ห้อง5</item>
+        <item>รายละเอียด ห้อง6</item>
+        <item>รายละเอียด ห้อง7</item>
+        <item>รายละเอียด ห้อง8</item>
     </string-array>
 
 
     <string-array name="Building_Register">
         <item>ห้อง1</item>
-    </string-array>
-    <string-array name="Building_Register_Picture">
-        <item>รูปห้อง1</item>
+        <item>ห้อง2</item>
+        <item>ห้อง3</item>
+        <item>ห้อง4</item>
+        <item>ห้อง5</item>
+        <item>ห้อง6</item>
+        <item>ห้อง7</item>
+        <item>ห้อง8</item>
     </string-array>
     <string-array name="Building_Register_Detail">
         <item>รายละเอียด ห้อง1</item>
+        <item>รายละเอียด ห้อง2</item>
+        <item>รายละเอียด ห้อง3</item>
+        <item>รายละเอียด ห้อง4</item>
+        <item>รายละเอียด ห้อง5</item>
+        <item>รายละเอียด ห้อง6</item>
+        <item>รายละเอียด ห้อง7</item>
+        <item>รายละเอียด ห้อง8</item>
     </string-array>
 
 
     <string-array name="Building_Shop">
         <item>ห้อง1</item>
-    </string-array>
-    <string-array name="Building_Shop_Picture">
-        <item>รูปห้อง1</item>
+        <item>ห้อง2</item>
+        <item>ห้อง3</item>
+        <item>ห้อง4</item>
+        <item>ห้อง5</item>
+        <item>ห้อง6</item>
+        <item>ห้อง7</item>
+        <item>ห้อง8</item>
     </string-array>
     <string-array name="Building_Shop_Detail">
         <item>รายละเอียด ห้อง1</item>
+        <item>รายละเอียด ห้อง2</item>
+        <item>รายละเอียด ห้อง3</item>
+        <item>รายละเอียด ห้อง4</item>
+        <item>รายละเอียด ห้อง5</item>
+        <item>รายละเอียด ห้อง6</item>
+        <item>รายละเอียด ห้อง7</item>
+        <item>รายละเอียด ห้อง8</item>
     </string-array>
 
 
     <string-array name="Building_FoodHall">
         <item>ห้อง1</item>
-    </string-array>
-    <string-array name="Building_FoodHall_Picture">
-        <item>รูปห้อง1</item>
+        <item>ห้อง2</item>
+        <item>ห้อง3</item>
+        <item>ห้อง4</item>
+        <item>ห้อง5</item>
+        <item>ห้อง6</item>
+        <item>ห้อง7</item>
+        <item>ห้อง8</item>
     </string-array>
     <string-array name="Building_FoodHall_Detail">
         <item>รายละเอียด ห้อง1</item>
+        <item>รายละเอียด ห้อง2</item>
+        <item>รายละเอียด ห้อง3</item>
+        <item>รายละเอียด ห้อง4</item>
+        <item>รายละเอียด ห้อง5</item>
+        <item>รายละเอียด ห้อง6</item>
+        <item>รายละเอียด ห้อง7</item>
+        <item>รายละเอียด ห้อง8</item>
     </string-array>
 
 
     <string-array name="Building_EO">
         <item>ห้อง1</item>
-    </string-array>
-    <string-array name="Building_EO_Picture">
-        <item>รูปห้อง1</item>
+        <item>ห้อง2</item>
+        <item>ห้อง3</item>
+        <item>ห้อง4</item>
+        <item>ห้อง5</item>
+        <item>ห้อง6</item>
+        <item>ห้อง7</item>
+        <item>ห้อง8</item>
     </string-array>
     <string-array name="Building_EO_Detail">
         <item>รายละเอียด ห้อง1</item>
+        <item>รายละเอียด ห้อง2</item>
+        <item>รายละเอียด ห้อง3</item>
+        <item>รายละเอียด ห้อง4</item>
+        <item>รายละเอียด ห้อง5</item>
+        <item>รายละเอียด ห้อง6</item>
+        <item>รายละเอียด ห้อง7</item>
+        <item>รายละเอียด ห้อง8</item>
     </string-array>
 
 

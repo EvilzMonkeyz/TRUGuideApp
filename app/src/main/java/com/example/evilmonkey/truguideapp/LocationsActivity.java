@@ -1,13 +1,16 @@
 package com.example.evilmonkey.truguideapp;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
-import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
@@ -26,11 +29,9 @@ public class LocationsActivity extends AppCompatActivity implements OnMapReadyCa
     private static final LatLng TRUCenter = new LatLng(13.716375, 100.348672);
     private static final LatLng TRU_VIEW = new LatLng(13.716291, 100.347623);
 
-    private String[] Location_Name,Location_Icon,Location_Lat,Location_Lon,Location_Subtitle;
+    private String[] Location_Name,Location_Parth,Location_Lat,Location_Lon,Location_Subtitle;
 
     private Marker marker;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +39,7 @@ public class LocationsActivity extends AppCompatActivity implements OnMapReadyCa
         setContentView(R.layout.activity_locations);
 
         Location_Name = getResources().getStringArray(R.array.Location_Name);
-        Location_Icon = getResources().getStringArray(R.array.Location_Icon);
+        Location_Parth = getResources().getStringArray(R.array.Location_Parth);
         Location_Lat = getResources().getStringArray(R.array.Location_Lat);
         Location_Lon = getResources().getStringArray(R.array.Location_Lon);
         Location_Subtitle = getResources().getStringArray(R.array.Location_Subtitle);
@@ -81,14 +82,20 @@ public class LocationsActivity extends AppCompatActivity implements OnMapReadyCa
         CameraPosition cameraPosition = new CameraPosition.Builder().target(TRU_VIEW).zoom(18).bearing(65).tilt(50).build();
         mGoogleMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
 
+
+
         // Cerate Marker
+        //int imageKey;
         for(int i=0;i<=maxLocation-1;i++){
             Double lat = Double.parseDouble(Location_Lat[i]);
             Double lon = Double.parseDouble(Location_Lon[i]);
             LatLng location = new LatLng(lat,lon);
-            //googleMap.addMarker(new MarkerOptions().position(location).title(Location_Name[i]).snippet(Location_Subtitle[i]).icon(BitmapDescriptorFactory.fromResource(R.drawable.mainlogo)));
-            marker = googleMap.addMarker(new MarkerOptions().position(location).title(Location_Name[i]).snippet(Location_Subtitle[i]));
+            //imageKey = getResources().getIdentifier("drawable/loc"+i, "drawable", getPackageName());
+            marker = googleMap.addMarker(new MarkerOptions().position(location).title(Location_Name[i]).snippet(Location_Subtitle[i]).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+            //marker = googleMap.addMarker(new MarkerOptions().position(location).title(Location_Name[i]).snippet(Location_Subtitle[i]));
+
             marker.setTag(i);
+
         }
 
         //To Click for Event
@@ -100,9 +107,16 @@ public class LocationsActivity extends AppCompatActivity implements OnMapReadyCa
         //Click To Inten New Windows
         int position =  (int)(marker.getTag());
         String title = Location_Name[position];
+        String parth = Location_Parth[position];
 
         Toast.makeText(this, "แสดงข้อมูลของ "+title, Toast.LENGTH_SHORT).show();
+        Intent nt = new Intent(LocationsActivity.this, LocalDetailActivity.class);
 
+        nt.putExtra("Location_Name",title);
+        nt.putExtra("Location_Parth",parth);
 
+        startActivity(nt);
     }
+
+
 }

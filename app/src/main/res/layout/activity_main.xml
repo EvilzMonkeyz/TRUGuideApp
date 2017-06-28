@@ -33,7 +33,7 @@
 
         <ImageView
             app:srcCompat="@drawable/mainlogo"
-            android:id="@+id/imageView"
+            android:id="@+id/imageRoom"
             android:layout_marginTop="41dp"
             tools:ignore="ContentDescription"
             android:layout_alignParentTop="true"
@@ -71,7 +71,7 @@
             android:id="@+id/but_ar"
             android:layout_marginTop="80dp"
             style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_below="@+id/imageView"
+            android:layout_below="@+id/imageRoom"
             android:layout_alignLeft="@+id/but_tuto"
             android:layout_alignStart="@+id/but_tuto"
             tools:ignore="HardcodedText"
